@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <section class="content">
+        <section class="skybox-wrapper">
+            <section class="skybox">
+                <img src="lardo.jpg" alt="" class="weather-image">
+            </section>
+        </section>
+        <section class="search center-content">
+            <form action="" class="search-form vertical-columns">
+                <label for="location">Location</label>
+                <input type="text" name="location">
+                <input type="submit" name="submit" value="SEARCH">
+            </form>
+        </section>
+            <section class="results-wrapper center-content">
+                <section class="results vertical-columns">
+                    <p class="city"></p>
+                    <p class="weather"></p>
+                    <p class="degrees"></p>
+                    <p class="unit"></p>
+                    <button class="convert">CONVERT</button>
+                </section>
+            </section>
+        </section>
+    </body>
+    <script src="script.js"></script>
+</html>

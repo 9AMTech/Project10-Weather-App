@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    height: 100vh;
+}
+
+p {
+    margin: 0;
+}
+
+.vertical-columns {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto 20%;
+    width: 100%;
+    height: 35%;
+    padding: 20px 0;
+    row-gap: 20px;
+    background-color: gray;
+}
+
+.center-content {
+    display: flex;
+    justify-content: center;
+}
+
+/*====== HOME PAGE - CONTENT SECTION ======*/
+.content {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 25% 75%;
+    height: 100%;
+}
+
+/* HOME PAGE - SKYBOX SECTION */
+.skybox-wrapper {
+    grid-column: 1 / 3;
+    background-color: lightblue;
+    display: flex;
+}
+
+.skybox {
+    display: flex;
+    margin: 0 auto;
+}
+
+/* HOME PAGE - SEARCH SECTION */
+.search {
+    grid-column: 1 / 2;
+    background-color: lightcoral;
+}
+
+
+/* HOME PAGE - RESULTS SECTION */
+.results-wrapper {
+    grid-column: 2 / 3;
+    background-color: lightgreen;
+}

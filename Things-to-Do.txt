@@ -1,0 +1,7 @@
+I'm planning on using the practice APIs from last lesson
+    to create the skybox,depending on what weather condition is searched up, it will get a similar gif using ideally a search term they have.
+        - Banking on the idea that they have the words like rainy/sunny
+            from the weather API, then using that to look up relative
+            gifs on giphy
+            
+
