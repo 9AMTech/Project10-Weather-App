@@ -1,7 +1,7 @@
 # Weather App
 A weather app made using JS APIs!
 
-**Link to project:** https://9amtech.github.io/Project10-Weather-App/ <br>
+**Link to project:** https://9amtech.github.io/Weather-App/ <br>
 **Project Requirements:** https://www.theodinproject.com/lessons/node-path-javascript-weather-app#assignment
 
 ![Thumbnail for the the todo-list project.](https://github.com/9AMTech/Project10-Weather-App/blob/main/thumbnail.png?raw=true)
