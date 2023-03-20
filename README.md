@@ -1,4 +1,4 @@
-# Project 10 - Weather App
+# Weather App
 A weather app made using JS APIs!
 
 **Link to project:** https://9amtech.github.io/Project10-Weather-App/ <br>
